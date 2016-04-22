@@ -1,0 +1,28 @@
+body {
+  min-height: 2000px;
+}
+
+.gameChoices {
+	/*background: orange;
+	border: dashed black 4px;*/
+	max-height: 200px;
+	overflow: hidden;
+}
+
+.buttonCompare {
+	background: black;
+	border-radius: 35px;
+	font: white;
+	text-align: center;
+	padding: 30px;
+}
+
+/* **************  FOR SMALLER SCREENS  **********************/
+
+@media only screen and (max-width: 963px) {
+    body {
+        background-color:lightblue;
+    }
+    
+/****************************************************************/
+

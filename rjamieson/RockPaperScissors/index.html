@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Rock, Paper, Scissors</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container">
+        <header class="page-header">
+          <h1>Welcome to Rock, Paper, Scissors!!</h1>
+        </header>
+      </div>
+
+      <nav id="navbar-main" class="navbar navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav><!-- Navigation bar closing -->
+
+      <div class="row">
+        <div class="col-xs-4 gameChoices">
+          <img id="rockP1" class="img-responsive" src="https://chrismartinphotography.files.wordpress.com/2012/04/red-rock-coulee-c2a9-2012-christopher-martin-2406.jpg" alt="Rock Picture">
+        </div>
+
+        <div class="col-xs-4"></div>
+
+        <div class="col-xs-4 gameChoices">
+          <img id="rockP2" class="img-responsive" src="https://chrismartinphotography.files.wordpress.com/2012/04/red-rock-coulee-c2a9-2012-christopher-martin-2406.jpg" alt="Rock Picture">
+
+        </div>
+      </div><!--  End of 1st Row  -->
+
+
+      <div class="row">
+        <div class="col-xs-4 gameChoices">
+          <img id="paperP1" class="img-responsive" src="https://shop.aph.org/wcsstore/APHConsumerDirect/images/catalog/products_large/1-04560-00_Embossed_Writing_Paper_G.jpg" alt="Paper Picture">
+        </div>
+
+        <div class="col-xs-1"></div>
+
+        <div class="col-xs-2">
+
+          <h2 id="compare" class="buttonCompare">Click to play</h2>
+
+
+        </div>
+
+        <div class="col-xs-1"></div>
+
+        <div class="col-xs-4 gameChoices">
+          <img id="paperP2" class="img-responsive" src="https://shop.aph.org/wcsstore/APHConsumerDirect/images/catalog/products_large/1-04560-00_Embossed_Writing_Paper_G.jpg" alt="Paper Picture">
+        </div>
+
+      </div><!-- End of 2nd row -->
+
+
+      <div class="row">
+        <div class="col-xs-4 gameChoices">
+          <img id="scissorsP1" class="img-responsive" src="http://pngimg.com/upload/scissors_PNG1.png" alt="Scissors Picture">
+        </div>
+
+        <div class="col-xs-4"></div>
+        <div class="col-xs-4 gameChoices">
+          <img id="scissorsP2" class="img-responsive" src="http://pngimg.com/upload/scissors_PNG1.png" alt="Scissors Picture">
+        </div>
+
+      </div><!-- End of 3rd row -->
+
+      
+
+    </div>
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+  </body>
+</html>

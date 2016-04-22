@@ -1,0 +1,74 @@
+.mtHoodPano {
+    height: auto;
+    width: 100%;
+    background: black url("../images/IMG_2501.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.glassPano {
+    height: auto;
+    width: 100%;
+    background: url("../images/IMG_2397.jpg");
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.vacationPano {
+    height: auto;
+    width: 100%;
+    padding-bottom: 30%;
+    background: black url("../images/IMAG3116.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.homePano {
+	height: auto;
+    width: 100%;
+    background: url("../images/IMG_0852.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* **************  FOR SMALLER SCREENS  **********************/
+
+@media only screen and (max-width: 963px) {
+    body {
+        background-color:lightblue;
+    }
+    .mtHoodPano {
+	    height: auto;
+	    width: 100%;
+	    background: black url("../images/IMG_2492.jpg");
+	    background-size: 100%;
+	    background-repeat: no-repeat;
+	}
+	.glassPano {
+	    height: auto;
+	    width: 100%;
+	    background: url("../images/IMG_2420.jpg");
+
+
+	    background-size: 100%;
+	    background-repeat: no-repeat;
+	}
+	.vacationPano {
+	    height: auto;
+	    width: 100%;
+	    padding-bottom: 30%;
+	    background: black url("../images/IMG_2441.jpg");
+	    background-size: 100%;
+	    background-repeat: no-repeat;
+	}
+
+	.homePano {
+		height: auto;
+	    width: 100%;
+	    background: url("../images/IMG_0852.jpg");
+	    background-size: 100%;
+	    background-repeat: no-repeat;
+	}
+
+}
+/****************************************************************/
+
