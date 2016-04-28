@@ -1,0 +1,86 @@
+.word
+	{color: #e3e3e3;
+	font-size: 1.25em;
+	background-color: #89bdd3;
+	border: solid #5D99B3 3px;
+	border-radius: 10px}
+
+.wordCent
+	{color: #e3e3e3;
+	font-size: 1.25em;
+	background-color: #89bdd3;
+	border: solid #5D99B3 3px;
+	border-radius: 10px;
+	text-align: center;}
+
+.wordSlide
+	{color: #e3e3e3;
+	background-color: #89bdd3;
+	border: solid #5D99B3 3px;
+	border-radius: 10px}
+
+.box
+	{background-color: #89bdd3;
+	border: solid #5D99B3 5px;
+	border-radius: 10px;
+	margin: auto;}
+
+#wordOn
+	{font-size: 2em;
+	text-align: center;}
+
+#wordOn a
+	{color: #e3e3e3;
+	background-color: #89bdd3; 
+	font-size: 1.3em;
+	text-align: center;}
+
+.rotate
+	{transform:rotate(90deg);}
+
+#current
+	{color: #FFD5A1;
+	background-color: #0A4060;}
+
+.link
+	{color: #FFD5A1;
+	background-color: #0A4060;
+	border: solid #FFD5A1 3px;
+	border-radius: 5px;
+	font-size: 1.5em;
+	text-decoration: none;
+	text-align: center;}
+
+.link:visited
+	{color: #FFD5A1;}
+
+.cent{text-align: center;}
+
+body 
+	{background: #ec8556;
+	background: -moz-radial-gradient(center, ellipse cover,  #ec8556 0%, #b9eeda 78%);
+	background: -webkit-radial-gradient(center, ellipse cover,  #ec8556 0%,#b9eeda 78%);
+	background: radial-gradient(ellipse at center,  #ec8556 0%,#b9eeda 78%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec8556', endColorstr='#b9eeda',GradientType=1 );
+	background-repeat: no-repeat;
+	background-attachment: fixed;}
+
+#beep{width: 120%;}
+
+#havoc{width: 200%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
