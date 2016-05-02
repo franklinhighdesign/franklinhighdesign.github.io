@@ -58,11 +58,11 @@
 
 body 
 	{background: #ec8556;
-	background: -moz-radial-gradient(center, ellipse cover,  #ec8556 0%, #b9eeda 78%);
-	background: -webkit-radial-gradient(center, ellipse cover,  #ec8556 0%,#b9eeda 78%);
-	background: radial-gradient(ellipse at center,  #ec8556 0%,#b9eeda 78%);
+	background: -moz-radial-gradient(center, ellipse cover,  #ec8556 0%, #b9eeda 100%);
+	background: -webkit-radial-gradient(center, ellipse cover,  #ec8556 0%,#b9eeda 100%);
+	background: radial-gradient(ellipse at center,  #ec8556 0%,#b9eeda 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec8556', endColorstr='#b9eeda',GradientType=1 );
-	
+	background-repeat: no-repeat;
 	background-attachment: fixed;}
 
 #beep{width: 120%;}
