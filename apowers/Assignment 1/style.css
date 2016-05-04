@@ -1,0 +1,53 @@
+body {
+	background-color: #B5DFEF;
+}
+
+#abilitytext {
+	font-size: 200%;
+
+}
+
+.maintext {
+	font-size: 125%;
+}
+
+img {
+	display: block;
+}
+
+#mainpic{
+	margin: auto;
+	width: 250px;
+}
+
+#mainpic:hover{
+	width: 1000px;
+	-webkit-transition: width 3s;
+	transition: width 2s;
+	
+}
+
+p {
+color:#103876;
+}
+
+#wikilink{
+	font-size: 200%;
+	text-align: center;
+	color:#103876;
+}
+
+a:visited { 
+    color: #103876
+}
+
+#introtext{
+	text-align: center;
+	font-size: 200%;
+}
+
+#mosaicLink{
+	display: block;
+	text-align: center;
+	font-size: 50px;
+}
