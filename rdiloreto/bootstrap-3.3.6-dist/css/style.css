@@ -1,0 +1,11 @@
+.entery{
+	border: solid black 3px;
+	background-color: grey;
+}
+.date{
+	font-size: 200%;
+	font-style:bold;
+}
+.objective{
+	font-size: 150%
+}
