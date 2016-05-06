@@ -1,0 +1,156 @@
+html {
+	background-color: #4F555F;
+}
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+	color: white;
+}
+
+/********************Title*******************/
+
+#topBanner {
+	text-align: center;
+}
+
+#menu {
+	border: solid black 5px;
+	border-radius: 10px;
+	width: 44%;
+	margin: 0 auto 10px;
+}
+
+/******************Menu Buttons**************/
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	height: 28px;
+}
+
+#menu li {
+	list-style-type: none;
+	float: left;
+	border: solid black 5px;
+	width: 25%;
+	text-align: center;
+	background-color: #1D232E;
+}
+
+#menu a {
+	color: #BEB4A2;
+	text-decoration: none;
+}
+
+#menu li:hover {
+	background-color: #6C737D;
+}
+
+/***************Main Content****************/
+
+#mainContent {
+	border: solid black 5px;
+	border-radius: 5px;
+	height: auto;
+	background-color: #1D232E;
+}
+
+#mainContent:hover {
+	background-color: #BEB4A2;
+}
+
+/*****************Section One***************/
+
+#sectionOne {
+	background-color: #453B29;
+	border: solid #454029 5px;
+	border-radius: 20px;
+	width: 96%;
+	margin: 30px auto 10px;
+	padding: 10px;
+}
+
+/****************Section Two****************/
+
+#sectionTwo {
+	background-color: #453B29;
+	border: solid #454029 5px;
+	border-radius: 20px;
+	width: 97.5%;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+/*********************Photos****************/
+
+.smallImage {
+	display: inline-block;
+	border: solid black 5px;
+	width: 24%;
+	height: 210px;
+	padding: 0;
+}
+
+.smallImage img {
+	width: 100%;
+	height: 100%;
+}
+
+/*************Jabba Photos******************/
+
+#imageOneJabba {
+	margin: 10px 3.5% 10px 7%;
+}
+
+#imageTwoJabba {
+	margin: 10px 3% 10px 3%;
+}
+
+#imageThreeJabba {
+	margin: 10px 7% 10px 3.5%;
+}
+
+/****************Vader Photos***************/
+
+#imageOneVader {
+	margin: 10px 3.5% 10px 7%;
+}
+
+#imageTwoVader {
+	margin: 10px 3% 10px 3%;
+}
+
+#imageThreeVader {
+	margin: 10px 7% 10px 3.5%;
+}
+
+/****************Chewie Photos**************/
+
+#imageOneChewie {
+	margin: 10px 3.5% 10px 7%;
+}
+
+#imageTwoChewie {
+	margin: 10px 3% 10px 3%;
+}
+
+#imageThreeChewie {
+	margin: 10px 7% 10px 3.5%;
+}
+
+/***************Web Journal Link*************/
+
+#webJournalLink {
+	display: block;
+	width: 95%;
+	height: 45px;
+	margin: 15px auto;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #FF7C1B;
+	border: solid black 3px;
+	padding: 8px;
+	font-family: verdana;
+}

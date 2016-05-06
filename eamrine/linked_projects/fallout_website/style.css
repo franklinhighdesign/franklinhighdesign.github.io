@@ -1,0 +1,281 @@
+/***********************************************NAVIGATION BAR***************************************/
+.navBar {
+	height: 205px;
+	width: 100%;
+	background-color: #253D0D;
+	border: solid #6AD900 5px;
+	border-radius: 5px;
+	margin: auto;
+}
+.navBar h1 {
+	color: #54FF78;
+	font-family: "Verdana", sans-serif;
+	width: 45%;
+	background-color: #33612F;
+	text-align: center;
+	margin: 25px auto 10px;
+	padding: 13px;
+}
+.navBar a:visited {
+	color: #54FF78;
+}
+
+/**********************************************LINKS*************************************************/
+
+.farLeftBox {
+	float: left;
+	width: 15%;
+	height: 60px;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Verdana", Sans-serif;
+	margin: 15px 20px 15px 15%;
+	padding: 13px;
+	background-color: #33612F;
+}
+
+.leftBox {
+	float: left;
+	width: 15%;
+	height: 60px;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Verdana", Sans-serif;
+	margin: 15px 20px;
+	padding: 13px;
+	background-color: #33612F;
+}
+
+.rightBox {
+	float: left;
+	width: 15%;
+	height: 60px;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Verdana", Sans-serif;
+	margin: 15px 20px;
+	padding: 13px;
+	background-color: #33612F;
+}
+
+.farRightBox {
+	float: left;
+	width: 15%;
+	height: 60px;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Verdana", Sans-serif;
+	margin: 15px 15% 15px 20px;
+	padding: 13px;
+	background-color: #33612F;
+}
+
+a:link {
+	text-decoration: none
+}
+
+#presentPage a:link {
+	text-decoration: underline;
+}
+#presentPage a:visited {
+	color: #54FF78;
+}
+/**************************************************MAIN CONTENT*************************************/
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background-image: url(photos/fallout_4_vault_111.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*background-color: #141E12;*/
+}
+
+.header {
+	width: 50%;
+	color: #54FF78;
+	background-color: #33612F;
+	font-family: "Verdana", Sans-serif;
+	margin: auto;
+	padding: 13px;
+	text-align: center;
+}
+
+.subHeading {
+	width: 25%;
+	color: #54FF78;
+	background-color: #33612F;
+	font-family: "Verdana", Sans-serif;
+	margin: 5px auto;
+	padding: 13px;
+	text-align: center;
+}
+
+.smallHeader {
+	width: 55%;
+	color: #54FF78;
+	background-color: #33612F;
+	font-family: "Verdana", Sans-serif;
+	margin: 5px auto;
+	padding: 10px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.description {
+	float: left;
+}
+
+#historyLesson {
+	width: 690px;
+	height: 390px;
+	padding: 7px;
+	color: #54FF78;
+	background-color: #33612F;
+	font-family: "Verdana", Sans-serif;
+}
+
+.elementBox {
+	height: 450px;
+	width: 50%;
+	margin: 5px 0;
+	float: left;
+	background-color: #253D0D;
+	border: solid #6AD900 5px;
+	border-radius: 5px;
+}
+
+.elementBox p {
+	font-size: 14px;
+	margin: 14px auto;
+	padding: 7px 25px;
+	width: 85%;
+	color: #54FF78;
+	background-color: #33612F;
+	font-family: "Verdana", Sans-serif;
+}
+
+.elementBox img {
+	width: 100%;
+	height: 90%;
+}
+
+#caption {
+	text-align: center;
+	width: 90%;
+	margin: 2px auto;
+}
+
+#perkImage img {
+	width: 64%;
+	display: block;
+	margin: auto;
+}
+
+#picHolder {
+	background-color: #253D0D;
+	border: solid #6AD900 5px;
+	border-radius: 5px;
+}
+
+#picHolder img {
+	height: 230px;
+	width: 19.685%;
+	display: inline;
+	padding: 15px 7px;
+	background-color: #33612F;
+}
+
+#falloutCover {
+	width: 100%;
+	height: 480px;
+	background-color: #253D0D;
+	border: solid #6AD900 5px;
+	border-radius: 5px;
+}
+
+#falloutCover img {
+	height: 420px;
+	width: 350px;
+	display: block;
+	margin: 0 50px 0 75px;
+	padding: 15px 7px;
+}
+
+#scoreBackground {
+	width: 100%;
+	height: 394px;
+	padding: 17px;
+	background-color: #253D0D;
+	border: solid #6AD900 5px;
+	border-radius: 5px;
+}
+
+.scoreWrapper {
+	width: 33.333%;
+	height: 350px;
+	background-color: #33612F;
+	float: left;
+}
+
+.scoreWrapper img {
+	width: 100%;
+	height: 100%;
+}
+
+.scoreKeeper {
+	font-family: "verdana", Sans-serif;
+	color: #54FF78;
+	font-size: 100px;
+	text-align: center;
+}
+
+#conclusion {
+	width: 100%;
+	height: 394px;
+	padding: 17px;
+	background-color: #253D0D;
+	border: solid #6AD900 5px;
+	border-radius: 5px;
+}
+
+#conclusion p {
+	width: 100%;
+	height: 350px;
+	margin: auto;
+	padding: 25px;
+	font-family: "verdana", Sans-serif;
+	font-size: 30px;
+	color: #54FF78;
+	background-color: #33612F;
+}
+
+/*******************************Project Link********************/
+
+#webJournalLink {
+	display: block;
+	width: 95%;
+	height: 45px;
+	margin: 15px auto;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: #FF7C1B;
+	border: solid black 3px;
+	padding: 8px;
+	font-family: verdana;
+}
+
+
+
+
+
+
+
+
+
+
+
