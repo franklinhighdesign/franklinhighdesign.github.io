@@ -1,0 +1,78 @@
+/* body*/
+
+body {
+    background-image: url(http://www.funchap.com/wp-content/uploads/2015/08/free-download-butterfly-wallpaper.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+
+/*div*/
+
+div .list {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: auto;
+    color: white;
+}
+
+
+/*objective and agenda*/
+
+.date {
+    text-align: right;
+}
+
+.agenda {
+    text-indent: 50px;
+}
+
+.objective {
+    text-indent: 50px;
+}
+
+.summary {
+    text-indent: 50px;
+}
+
+p {
+    text-indent: 10px;
+}
+
+
+.row {
+    margin-top: 70px;
+}
+
+.color {
+    color: white;
+}
+
+/* Thumb Nail */
+
+.thumbnail {
+    border-color: white;
+    background: none;
+}
+
+.thumbnail p {
+    color: white;
+}
+
+.thumbnail h3 {
+    color: white;   
+}
+
+/* Icons */ 
+
+.material-icons {
+    color:white;
+}
+
+.sliders {
+    margin-top: 100px;
+}
+
