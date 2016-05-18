@@ -1,0 +1,30 @@
+#body{
+	background-color: #EEF3E1;
+}
+
+.inputBox{
+	background-color: #5F7914;
+	color: #262D14;
+}
+
+.inputLine{
+	text-align: center;
+}
+
+.submitLine{
+	text-align: center;
+	color: black;
+}
+
+.wordBox{
+	width: 90%;
+}
+
+.inputCaption{
+	font-size: 20px;
+}
+
+#outputBox1{
+	font-size: 30px;
+
+}
