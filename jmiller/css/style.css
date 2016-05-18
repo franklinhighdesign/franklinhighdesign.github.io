@@ -1,0 +1,28 @@
+body {
+	background: #00C9C9;
+}
+
+.journalEntry {
+	border:solid black 3px;
+	border-radius: 30px;
+	margin-top: 20px;
+	padding: 20px;
+	background: #303D74;
+	color: #D4B56A;
+}
+
+.pics{
+	border:solid black 5px;
+	background-color: #5B9182;
+	border-radius: 30px;
+	margin-top: 20px;
+	padding: 20px;
+	height:400px;
+	width:300px;
+}
+
+
+
+
+
+
