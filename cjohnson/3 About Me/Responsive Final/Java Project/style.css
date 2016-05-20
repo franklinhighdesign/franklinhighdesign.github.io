@@ -1,0 +1,49 @@
+body {background-color: #D46A6A;}
+
+#title{
+	text-align: center;
+
+}
+
+.buttons {
+	text-align: center;
+	float: left;
+	width: 25%;
+	background: white;
+	border: solid black 3px;
+	margin: 0 12%
+
+
+}
+
+#forButton {
+	width: 40%;
+	height: 100px;
+	display: block;
+	float: left;
+}
+
+
+
+#whileButton {
+	width: 40%;
+	height: 100px;
+	display: block;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
