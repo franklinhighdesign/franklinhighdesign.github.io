@@ -56,6 +56,8 @@
 
 .cent{text-align: center;}
 
+.stupid{width: 150%;}
+
 body 
 	{background: #ec8556;
 	background: -moz-radial-gradient(center, ellipse cover,  #ec8556 0%, #b9eeda 100%);
