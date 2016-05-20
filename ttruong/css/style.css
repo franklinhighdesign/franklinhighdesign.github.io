@@ -1,7 +1,7 @@
 /* body*/
 
 body {
-    background-image: url(http://www.funchap.com/wp-content/uploads/2015/08/free-download-butterfly-wallpaper.jpg);
+    background-image: url(https://i.ytimg.com/vi/u_f_yDnFtm8/maxresdefault.jpg);
     background-attachment: fixed;
     color: white;
 }
@@ -42,16 +42,6 @@ p {
     text-indent: 10px;
 }
 
-/* Navigation Bar */
-
-.demo-layout-transparent {
-  background: url('../assets/demos/transparent.jpg') center / cover;
-}
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-}
 
 .row {
     margin-top: 70px;
