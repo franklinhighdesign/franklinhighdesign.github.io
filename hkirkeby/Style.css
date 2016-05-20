@@ -1,0 +1,155 @@
+body{
+	background-color: #461313;
+	background: black url("https://i.ytimg.com/vi/FpUhZLx1hVQ/maxresdefault.jpg");
+	background-size: 100%;
+    background-repeat: no-repeat;
+}
+.Page3{
+
+	background: black url("https://i.ytimg.com/vi/FpUhZLx1hVQ/maxresdefault.jpg")
+}
+.NavBar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+#dataBar{
+	float: left;
+    width: 776px;
+    height: 40px;
+    border-radius: 8px 8px 0 0;
+    background-color: #003366;
+	
+}
+#databar ul {
+    list-style-type: none;
+}
+#databar li {
+    float: left;
+}
+#databar a {
+    color: white;
+    text-decoration: none;
+}
+#databar li + li{
+    background:url('nav_border.png') no-repeat top left;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.item:hover{
+	
+}
+.pictureGallery{
+	width: 500px;
+	height: 700px;
+}
+#topBanner h1{
+	color: beige;
+	text-align: center;
+	font-family: Arial;
+	font-size: -webkit-xxx-large;
+}
+.NavBar ul :hover{
+	background-color: #F69926; 
+	height: 40px;
+
+}
+.NavBar{	
+	height: 40px;
+	background-color: transparent;
+	list-style: none;
+}
+.NavBar ul{
+	padding: 0;
+	margin: auto;
+	width: 100%;
+	height: 40px;
+	background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+}
+.NavBar li{
+	float: left;
+	width: 25%;
+	height: 40px;
+	text-align: center;
+	list-style: none;
+	font-family: arial;
+
+}
+.NavBar a {
+	text-decoration: none;
+	font-size: 2.1em;
+	color: black;
+}
+
+#mainContent{
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 20px;
+	margin: 0px 30px 0px;
+	border: 5px #454029;
+	color: #997013;
+}
+#mainContent:hover { 
+    background-color: transparent;
+}
+
+
+.opacityGallery {
+	background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+}
+
+
+#extras{
+	border-radius: 20px;
+	border: 5px #454029;
+	background-color: transparent;
+	color: white;
+	padding: 10px;
+}
+#footer{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
