@@ -19,34 +19,25 @@
 
     <!-- Navigation Code -->
           
-          <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-            <header class="mdl-layout__header mdl-layout__header--transparent">
-              <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <span class="mdl-layout-title"> Hobbies Gallery </span>
-                <!-- Add spacer, to align navigation to the right -->
-                <div class="mdl-layout-spacer"></div>
-                <!-- Navigation -->
-              </div>
-            </header>
-            <div class="mdl-layout__drawer">
-              <span class="mdl-layout-title"> Hobbies Gallery </span>
-              <nav class="mdl-navigation">
-               <a class="mdl-navigation__link" href="index.html"> Home </a>
-                <a class="mdl-navigation__link" href="journal.html"> Journal </a>
-                <a class="mdl-navigation__link" disable> Gallery </a>
-                  <ul  style="list-style-type:none">
-                    <li><a class="mdl-navigation__link indent" href="school.html"> School </a></li>
-                    <li><a class="mdl-navigation__link indent" href="hobbies.html"> Hobbies </a></li>
-                    <li><a class="mdl-navigation__link indent" href="vacation.html"> Vacation/Future Plans </a></li>
-                  </ul>
-                <a class="mdl-navigation__link" href="games.html"> Games </a>
-                <a class="mdl-navigation__link" href="projects.html"> Projects  </a>
-              </nav>
-            </div>
-            <main class="mdl-layout__content">
-            </main>
-          </div>   
+        <div class="btn-group">
+
+          <button type="button" class="btn glyphicon glyphicon-menu-hamburger" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">       
+          </button>
+          
+          <ul class="dropdown-menu " aria-labelledby="dropdownMenu1">
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="journal.html"> Journal </a></li>
+              <li role="separator" class="divider"></li>
+                <li class="dropdown-header"> Gallery </li>
+                <li><a href="school.html"> School </a></li>
+                <li><a href="hobbies.html"> Hobbies </a></li>
+                <li><a href="vacation.html"> Vacation/Future Plan </a></li>
+              <li role="separator" class="divider"></li>
+            <li><a href="games.html"> Games </a></li>
+            <li><a href="projects.html"> Projects </a></li>
+          </ul>
+        
+        </div>
 
   <!-- Container Journal Code -->
 

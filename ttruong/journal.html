@@ -20,37 +20,31 @@
   <body>
     <!-- Navigation Code -->
           
-          <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-            <header class="mdl-layout__header mdl-layout__header--transparent">
-              <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <span class="mdl-layout-title"> Journal </span>
-                <!-- Add spacer, to align navigation to the right -->
-                <div class="mdl-layout-spacer"></div>
-                <!-- Navigation -->
-              </div>
-            </header>
-            <div class="mdl-layout__drawer">
-              <span class="mdl-layout-title"> Journal </span>
-              <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="index.html"> Home </a>
-                <a class="mdl-navigation__link" href="journal.html"> Journal </a>
-                <a class="mdl-navigation__link" disable> Gallery </a>
-                  <ul  style="list-style-type:none">
-                    <li><a class="mdl-navigation__link indent" href="school.html"> School </a></li>
-                    <li><a class="mdl-navigation__link indent" href="hobbies.html"> Hobbies </a></li>
-                    <li><a class="mdl-navigation__link indent" href="vacation.html"> Vacation/Future Plans </a></li>
-                  </ul>
-                <a class="mdl-navigation__link" href="games.html"> Games </a>
-                <a class="mdl-navigation__link" href="projects.html"> Projects  </a>
-              </nav>
-            </div>
-            <main class="mdl-layout__content">
-            </main>
-          </div>   
+        <div class="btn-group">
+
+          <button type="button" class="btn btn-default glyphicon glyphicon-menu-hamburger" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">       
+          </button>
+          
+          <ul class="dropdown-menu " aria-labelledby="dropdownMenu1">
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="journal.html"> Journal </a></li>
+              <li role="separator" class="divider"></li>
+                <li class="dropdown-header"> Gallery </li>
+                <li><a href="school.html"> School </a></li>
+                <li><a href="hobbies.html"> Hobbies </a></li>
+                <li><a href="vacation.html"> Vacation/Future Plan </a></li>
+              <li role="separator" class="divider"></li>
+            <li><a href="games.html"> Games </a></li>
+            <li><a href="projects.html"> Projects </a></li>
+          </ul>
+        
+        </div>
+  
 
   <!-- Container Journal Code -->
-  
+ 
+
+
   <div class="container">
     
       <div class="row list ">
@@ -696,12 +690,28 @@
       <div class="row list">
 
         <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12">
-            <p class="date"> May 18th, 2016</p>
+            <p class="date"> May 20th, 2016</p>
             <p> Objective: Student will ... </p>
             <p class="objective"> begin phase one of their final projects </p>
             <p> Agenda: </p>
             <p class="agenda"> - Update Web Journal </p>
             <p class="agenda"> - Phase One </p>
+            <p class="agenda"> - Projects </p>
+            <p class="agenda"> - Summary </p>
+            <p> Summary: </p>
+            <p class="summary"> Today in class, I begin phase one of final projects. Then I try to finish all the projects that I haven't finish. Finally, I have to write a summary for today class.</p>
+        </div>
+
+      </div>
+
+      <div class="row list">
+
+        <div class="col-xs-10 col-sm-10 col-md-12 col-lg-12">
+            <p class="date"> May 24th, 2016</p>
+            <p> Objective: Student will ... </p>
+            <p class="objective"> complete projects and upload them to github </p>
+            <p> Agenda: </p>
+            <p class="agenda"> - Attendance: Check in with Dr.D </p>
             <p class="agenda"> - Projects </p>
             <p class="agenda"> - Summary </p>
             <p> Summary: </p>
@@ -726,6 +736,7 @@
 
 
 
+<footer>&copy; Create by Thuyduong Truong </footer>
 
 
   </body>
