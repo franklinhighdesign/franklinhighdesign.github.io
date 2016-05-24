@@ -3,7 +3,7 @@
 	font-size: 1.25em;
 	background-color: #89bdd3;
 	border: solid #5D99B3 3px;
-	border-radius: 10px}
+	border-radius: 10px;}
 
 .wordCent
 	{color: #e3e3e3;
@@ -54,7 +54,12 @@
 .link:visited
 	{color: #FFD5A1;}
 
-.cent{text-align: center;}
+.cent{text-align: center;
+	color: #e3e3e3;
+	font-size: 4em;
+	background-color: #89bdd3;
+	border: solid #5D99B3 3px;
+	border-radius: 10px;}
 
 .stupid{width: 150%;}
 
