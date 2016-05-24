@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Rock Paper Scissors!</title>
 
     <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -18,26 +18,45 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+  <br>
+  <br>
     <div class="container">
       <div class="row">
-          <div class="col-xs-2"></div>
-          <div class="col-xs-8" id="form_holder">
-            <form name="example" action="action" id="example_form" class="form-horizontal">
-            <div class="form-group">
-              <input type="submit" name="submit" value="Rock" class="btn btn-default"/>
-              <input type="submit" name="submit" value="Paper" class="btn btn-default"/>
-              <input type="submit" name="submit" value="Scissors" class="btn btn-default"/>
-            </div>
-            </form>
-          </div>
-          <div class="col-xs-2"></div>
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6">
+          <h3>Take your pick...</h3>
         </div>
+        <div class="col-xs-3"></div>
+      </div>
     </div>
-
-
-
-
+  <br>
+  <br>
+    <div class="container">
+      <div class="row">
+        <img id="rock" class="col-xs-4 img-responsive" src="http://media3.s-nbcnews.com/i/newscms/2015_27/657281/rocky-today-tease-2-150701_7a9b1c5f62c46f839bbeb08fe79960ab.jpg" alt="rocky">
+        <div class="col-xs-1"></div>
+        <img id="paper" class="col-xs-3 img-responsive" src="http://www.gannett-cdn.com/-mm-/e573d471d80b88a3cdbca1aafda66f2a1dca6fd6/c=219-0-3648-2578&r=x404&c=534x401/local/-/media/2015/08/26/USATODAY/USATODAY/635761839612480895-ThinkstockPhotos-481658549.jpg" alt="paper">
+        <div class="col-xs-1"></div>
+        <img id="scissors" class="col-xs-3 img-responsive" src="https://redtedart.files.wordpress.com/2010/02/dsc_0056.jpg" alt="scissors">
+        <div class="col-xs-1"></div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+          <h1 id="displayText"></h1>
+        </div>
+        <div class="col-xs-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+          <h1 id="counter"></h1>
+        </div>
+        <div class="col-xs-2"></div>
+      </div>
+    </div>
 
 
 
