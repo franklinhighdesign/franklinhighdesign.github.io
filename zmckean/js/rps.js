@@ -69,16 +69,27 @@ function scissors(event) {
 	}
 }
 
-function addW() {
-	console.log("Win")
+var startW = 0;
+var startL = 0;
+var startT = 0;
+
+function addW(event) {
+	console.log("Win");
+	startW += 1;
+	document.getElementById("win").innerHTML = "Wins-" + startW;
+
 }
 
-function addL() {
-	console.log("Loose")
+function addL(event) {
+	console.log("Loose");
+	startL += 1;
+	document.getElementById("loose").innerHTML = "Losses-" + startL;
 }
 
-function addT() {
-	console.log("Tie")
+function addT(event) {
+	console.log("Tie");
+	startT += 1;
+	document.getElementById("tie").innerHTML = "Ties-" + startT;
 }
 
 
