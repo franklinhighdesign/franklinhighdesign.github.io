@@ -7,7 +7,7 @@ function displayPerson (event) {
 
 	var Person = {
 
-	name: form.username.value;
+	name: form.username.value,
 	
 };
 
