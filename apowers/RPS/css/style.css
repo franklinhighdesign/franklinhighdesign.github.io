@@ -1,0 +1,31 @@
+#rock{
+  cursor:pointer;
+}
+
+#paper{
+  cursor:pointer;
+}
+
+#scissors{
+  cursor:pointer;
+}
+
+#title{
+  text-align: center;
+}
+
+#displayText{
+  text-align: center;
+  font-size: 25px;
+  color: #022A2A
+}
+
+#introText{
+  text-align: center;
+  font-size: 25px;
+  color: #022A2A
+}
+
+#body{
+  background-color: #B0E9E9;
+}
