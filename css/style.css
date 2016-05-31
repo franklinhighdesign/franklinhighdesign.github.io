@@ -1,8 +1,11 @@
-body {
-	background: #5E484A;
+.entery{
+	border: solid black 3px;
+	background-color: grey;
 }
-
-.jumbotron {
-	background: black;
-	color: #D0C3C4;
+.date{
+	font-size: 200%;
+	font-style:bold;
+}
+.objective{
+	font-size: 150%
 }
