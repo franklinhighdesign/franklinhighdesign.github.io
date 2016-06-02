@@ -1,0 +1,22 @@
+pyl  -  person you love
+pyh  -  person you hate
+pob  -  part of body
+verbly- verb ending in "ly"
+verbed- past tense verb (verb ending in -ed)
+
+
+STORY:
+
+Once upon a time there was a [-adj1-] man named [-name1-]. He had a [-adj2-] temper that [-name1-] couldn't control. One time he got so [-adj2-]
+he was [-verb1-] off his [-sport-] team.  [-name2-] was on the rival [-sport-] team. They got in a [-verb2-] once and it ended [-Verbly-]. But during the [-sport-] season, [-verb2-] is not okay so they both got [-verbed-]. It was a [-adj3-] season.
+
+
+name1
+adj1
+adj2
+adj3
+verbed
+verbly
+verb1
+verb2
+sport
