@@ -62,7 +62,7 @@ function displayPerson(event) {
 	//This is all the html. You can see how I'm calling all the data. I'm just splicing it into the string.
 	//There are better ways to do this with Object Oriented Code but that's more complex than we need it to be
 
-	var html = "<p>One day, " + Person.word1 + " ate a/an " + Person.word2 + " apple pie." + "  He enjoyed every bite. " + "  Later, " + Person.word1 + " felt a sharp pain in his " + Person.word3 + ".  He didn't know what to do, so he paniced and took " + Person.word4 + "pills of and ground up " + Person.word5 + " eyeball to dull the pain.  The pills made him feel very " + Person.word6 + ".  Later, he " + Person.word7 + " very " + Person.word8 + " to feel better about the pie incident.</p>";
+	var html = "<p>One day, " + Person.word1 + " ate a/an " + Person.word2 + " apple pie." + "  He enjoyed every bite. " + "  Later, " + Person.word1 + " felt a sharp pain in his " + Person.word3 + ".  He didn't know what to do, so he paniced and took " + Person.word4 + " pills of and ground up " + Person.word5 + " eyeball to dull the pain.  The pills made him feel very " + Person.word6 + ".  Later, he " + Person.word7 + " very " + Person.word8 + " to feel better about the pie incident.</p>";
 
 	//Finally, set the content-display div to have the data. 
 	//This uses some jquery because it's easier but you are free to use what you've been using before.

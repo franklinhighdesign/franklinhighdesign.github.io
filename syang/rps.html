@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,12 +11,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Web Journal - Home</title>
+    <title>RPS</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- Agency CSS -->
     <link href="css/agency.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
@@ -28,8 +28,7 @@
     <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
-  	
-
+<!-- Nav Bar -->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -46,10 +45,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="file:///Volumes/Student/S/Y/SYang0897/Computer%20Coding%20and%20Digital%20Desgin/codingsemtwo/webjournal/index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="file:///Volumes/Student/S/Y/SYang0897/Computer%20Coding%20and%20Digital%20Desgin/codingsemtwo/webjournal/index.html">Home</a></li>
         <li><a href="file:///Volumes/Student/S/Y/SYang0897/Computer%20Coding%20and%20Digital%20Desgin/codingsemtwo/webjournal/journal.html">Journal</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle dropdown_custom_button" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+        <li class="dropdown active">
+          <a href="#" class="dropdown-toggle dropdown_custom_button" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="sr-only">(current)</span> <span class="caret"></span></a>
           <ul class="dropdown-menu dropdown_custom">
             <li><a href="mad_libs/index.html">Mad Libs!!!</a></li>
             <li><a href="rps.html">Rock, Paper, Scissors.</a></li>
@@ -82,27 +81,60 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
-<div class="container">
-        <div class="row">
-            <div class="col-xs-2"></div>
-            <div class="col-xs-10">
-                <h1>Web Journal</h1>
-            </div>
-        </div>
-    </div>
-
+<!-- End Nav Bar -->
+  <br>
     <div class="container">
-        <div class="row">
-            <div class="col-xs-2"></div>
-            <div class="col-xs-10">
-                <h5>Semester Two</h5>
-            </div>
+      <div class="row">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6">
+          <h3>Take your pick...</h3>
         </div>
+        <div class="col-xs-3"></div>
+      </div>
     </div>
-<br>
+  <br>
+  <br>
+    <div class="container">
+      <div class="row">
+        <img id="rock" class="col-xs-4 img-responsive" src="http://media3.s-nbcnews.com/i/newscms/2015_27/657281/rocky-today-tease-2-150701_7a9b1c5f62c46f839bbeb08fe79960ab.jpg" alt="rocky">
+        <div class="col-xs-1"></div>
+        <img id="paper" class="col-xs-3 img-responsive" src="http://www.gannett-cdn.com/-mm-/e573d471d80b88a3cdbca1aafda66f2a1dca6fd6/c=219-0-3648-2578&r=x404&c=534x401/local/-/media/2015/08/26/USATODAY/USATODAY/635761839612480895-ThinkstockPhotos-481658549.jpg" alt="paper">
+        <div class="col-xs-1"></div>
+        <img id="scissors" class="col-xs-3 img-responsive" src="https://redtedart.files.wordpress.com/2010/02/dsc_0056.jpg" alt="scissors">
+        <div class="col-xs-1"></div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-9">
+          <h2 id="displayText"></h2>
+        </div>
+        <div class="col-xs-1"></div>
+      </div>
+<!--       RESULT COUNTERS-->      
+      <div class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-2">
+          <h3 id="counter_win">Wins: </h3>
+        </div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-2">
+          <h3 id="counter_loss">Losses: </h3>
+        </div>
+        <div class="col-xs-1"></div>
+        <div class="col-xs-2">
+          <h3 id="counter_tie">Ties: </h3>
+        </div>
+        <div class="col-xs-1"></div>
+      </div>
+    </div>
 
-<br>
+
+
+    <script src="js/scripts_rps.js"></script>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
