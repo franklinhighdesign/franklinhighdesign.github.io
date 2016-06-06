@@ -1,11 +1,10 @@
-body {
-	background-color: black;
-}
+
 
 .img-responsive {
-	width: 35%;
-	height: 35%;
-	border: 5px white solid ;
+	width: 50%;
+	height: 50%;
+	border: 1px black solid;
+	margin-top: 10px;
 }
 
 .container {
@@ -20,10 +19,6 @@ div .jumbotron {
 	padding: 10px;
 }
 
-h1 {
-	color: white;
-	text-align: center;
-}
 
 div {
 	margin: center;
