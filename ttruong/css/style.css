@@ -75,26 +75,3 @@ p {
 .sliders {
     margin-top: 100px;
 }
-
-.project {
-    color: white;
-}
-
-/* Navigation Button */ 
-
-.demo-layout-transparent {
-  background: url('../assets/demos/transparent.jpg') center / cover;
-}
-
-.demo-layout-transparent .mdl-layout__header, .glyphicon, .glyphicon-menu-hamburger, button
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-    color: white;
-    width: 150%;
-    height: 150%;
-}
-
- {
-    
-}
