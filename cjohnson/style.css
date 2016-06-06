@@ -1,0 +1,28 @@
+body {
+	background-color: #D48E6A;
+}
+
+
+.header {
+	text-align: center;
+	color: #803915;
+}
+
+#sportPics {
+	width: 205px;
+	height: 195px;
+	margin: auto;
+	border: solid black 7px;
+}
+
+#navColor {
+	background-color: green;
+}
+
+
+
+
+
+
+
+
