@@ -46,7 +46,6 @@ body {
 	padding: 10px;
 	margin: 0;
 	text-align: center;
-	text-decoration: underline;
 }
 
 .journalEntry ul {
@@ -59,6 +58,8 @@ body {
 	width: 60%;
 	padding: 15px 75px 5px;
 }
+
+
 
 /**NavBar Color**/
 
