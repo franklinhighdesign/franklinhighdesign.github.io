@@ -7,34 +7,6 @@ body {
 	font-family: verdana;
 }
 
-#projectBlock {
-	margin: 50px auto;
-	width: 92%;
-	height: 310px;
-	background-color: #473323;
-	padding: 10px;
-}
-
-#projectBlock p {
-	margin: auto;
-	width: 96.444444%;
-	color: white;
-	background-color: #41016C;
-	padding: 20px 40px;
-}
-
-.projectLinks {
-	display: block;
-	float: left;
-	width: 29.33333333333%;
-	margin: 15px 2%;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	background-color: #9939AD;
-	padding: 20px 40px;
-}
-
 #unique {
 	background-color: #D389E3;
 }
@@ -46,31 +18,6 @@ body {
 #unique ol {
 	color: white;
 	padding: 10px 10px 10px 75px;
-}
-
-#navBar {
-	width: 85%;
-	height: 104px;
-	margin: 25px auto 0 auto;
-	padding: 18px 5% 15px 5%;
-	background-color: #473323;
-}
-
-#navBar a {
-	text-decoration: none;
-	font-size: 30px;
-	color: white;
-	padding: 15px;
-	background-color: #9939AD;
-	height: 70px;
-	display: block;
-}
-
-.links {
-	width: 33.3333%;
-	float: left;
-	text-align: center;
-	height: 70px;
 }
 
 .clear {
@@ -116,7 +63,7 @@ body {
 /**NavBar Color**/
 
 .navbar-default {
-  background-color: #41016C;
+  background-color: #41016c;
   border-color: #9654b2;
 }
 .navbar-default .navbar-brand {
@@ -135,6 +82,26 @@ body {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #ecdbff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #41016c;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ecdbff;
+  background-color: #9654b2;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #9654b2;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ecdbff;
+  background-color: #9654b2;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
