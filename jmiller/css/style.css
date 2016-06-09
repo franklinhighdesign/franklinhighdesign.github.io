@@ -1,0 +1,24 @@
+body {
+	background: #FF0700;
+}
+
+.journalEntry {
+	border:solid black 3px;
+	border-radius: 30px;
+	margin-top: 20px;
+	padding: 20px;
+	background: #640000;
+	color: #D4B56A;
+}
+
+.pics{
+	margin: auto;
+	display: block;
+	
+}
+
+
+
+
+
+
