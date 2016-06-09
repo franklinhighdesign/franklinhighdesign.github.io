@@ -1,0 +1,17 @@
+.dropdown_custom {
+	background-color: #222;
+}
+
+.dropdown_custom_button {
+	background-color: transparent;
+}
+
+
+
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color: white;
+	border-radius: 3px;
+	color: #222222;
+}
