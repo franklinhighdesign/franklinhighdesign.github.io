@@ -1,1 +1,15 @@
-style.css
+.rpsPics {
+	width: 90%;
+	height: 300px;
+}
+
+#result {
+	text-align: center;
+	text-decoration: all;
+}
+
+#resultBox {
+	border: solid purple 10px;
+	padding: 5px;
+
+}
